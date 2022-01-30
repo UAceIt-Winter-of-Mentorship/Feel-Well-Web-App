@@ -435,7 +435,7 @@ html, body, .wrapper {
   right: 0;
   z-index: 10;
 }
-.slider img.left:nth-child(1) {
+/* .slider img.left:nth-child(1) {
   -webkit-animation: leftNone 400ms ease-in-out;
   animation: leftNone 400ms ease-in-out;
 }
@@ -458,7 +458,7 @@ html, body, .wrapper {
 .slider img.right:nth-child(5) {
   -webkit-animation: rightNone 400ms ease-in-out;
   animation: rightNone 400ms ease-in-out;
-}
+} */
 
 @keyframes middleLeft {
   0% {
