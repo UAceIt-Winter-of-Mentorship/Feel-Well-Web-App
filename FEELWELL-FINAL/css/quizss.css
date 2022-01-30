@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  
+}
+
+:root{
+  --main-color:#ff158a;
+  --black:rgb(70, 70, 70);
+  --light-color:#777;
+  --bg: radial-gradient(circle, #25ff99, #00f1d6, #00dcff, #00c3ff, #5fa6f8);
+  --border:.1rem solid rgba(0,0,0,.1);
+  --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .3s ease-out;
+}
+
+.upper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  margin-bottom: 10px;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 800px;
+  max-width: 50%;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  border-radius: 5px;
+  padding: 60px 10px;
+  box-shadow: 0 0 10px 2px ;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  border: 1px solid var(--black);
+  background-color: var(--main-color);
+  font-size: medium;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  outline: none;
+}
+
+
+.btn:hover {
+  border-color: var(--black);
+}
+
+.btn.correct {
+  --main-color: hsl(113, 86%, 61%);
+}
+
+.btn.wrong {
+  --main-color: hsl(0, 100%, 58%);
+}
+
+.start-btn, .next-btn {
+  font-size: x-large;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.footer .btn{
+   color: white;
+}
