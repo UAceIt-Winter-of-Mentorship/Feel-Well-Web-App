@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&display=swap');
 
 :root{
-    --main-color:#e85454e5;
-    --black:rgb(39, 160, 225);
+    --main-color:#ff158a;
+    --black:rgb(70, 70, 70);
     --light-color:#777;
-    --bg:#ffea00b1;
+    --bg: radial-gradient(circle, #25ff99, #00f1d6, #00dcff, #00c3ff, #5fa6f8);
     --border:.1rem solid rgba(0,0,0,.1);
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 }
@@ -26,6 +26,7 @@ html{
     overflow-x: hidden;
 }
 
+
 section{
     padding:2rem 9%;
 }
@@ -35,12 +36,13 @@ section{
     padding-bottom: 3rem;
     font-size: 4rem;
     color:var(--black);
+    padding-bottom: 3rem;
 }
 
 .heading span{
     color:var(--main-color);
     border-radius: .5rem;
-    background: var(--bg);
+    background: #46e3ff;
     padding:0 1.5rem;
 }
 
@@ -50,7 +52,7 @@ section{
     padding:.8rem 3rem;
     font-size: 1.7rem;
     cursor: pointer;
-    color:#fff;
+    color:rgb(255, 255, 255);
     background:var(--main-color);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
@@ -126,8 +128,8 @@ section{
     align-items: center;
     flex-wrap: wrap;
     gap:1.5rem;
-    padding-top: 10rem;
-    background:var(--bg);
+    padding: 15rem;
+    background: var(--bg);
     position: relative;
 }
 
@@ -333,10 +335,13 @@ section{
     font-size: 1.5rem;
 }
 
-
+.about,
+.contact,
+.review{
+    background-color: #fff0fac9;
+}
 
 .footer{
-    margin-top: 1rem;
     background: var(--bg);
     padding-bottom: 9rem;
 }
@@ -421,7 +426,7 @@ section{
     .header .navbar{
         position: absolute;
         top:115%; right: 2rem;
-        background:#fff;
+        background:rgb(255, 255, 255) !important  ;
         box-shadow: var(--box-shadow);
         border:var(--border);
         border-radius: .5rem;
