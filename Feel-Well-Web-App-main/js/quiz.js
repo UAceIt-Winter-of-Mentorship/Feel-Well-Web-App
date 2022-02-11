@@ -1,5 +1,6 @@
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
+const backButton = document.getElementById('back-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
@@ -57,8 +58,10 @@ function selectAnswer(e) {
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {
-    startButton.innerText = 'Restart'
+    startButton.innerText = 'Restart' 
+    backButton.innerText = 'Back'
     startButton.classList.remove('hide')
+    backButton.classList.remove('hide')
   }
 }
 
@@ -81,8 +84,8 @@ const questions = [
     question: 'Mental Health is',
     answers: [
       { text: 'Absence of Mental Disorder', correct: false },
-      { text: 'Cognitive, behavioral, and emotional well-being', correct: true },
       { text: 'Important for specific people', correct: false },
+      { text: 'Cognitive, behavioral, and emotional well-being', correct: true },
       { text: 'Not related to well being of a person', correct: false }
     ]
   },
@@ -98,7 +101,7 @@ const questions = [
   {
     question: 'Mental Illness',
     answers: [
-      { text: 'Can be treated!', correct: true },
+      { text: 'Can be treated! ', correct: true },
       { text: 'Cannot be treated!', correct: false }
     ]
   },
@@ -122,8 +125,8 @@ const questions = [
     question: 'Mental health is not',
     answers: [
       { text: 'A myth', correct: true },
-      { text: 'Natural behavioral and emotional malfunction', correct: false },
       { text: 'Normal as Physical health conditions', correct: false },
+      { text: 'Natural behavioral and emotional malfunction', correct: false },
       { text: 'Something that needs attention and awareness', correct: false }
     ]
   }
