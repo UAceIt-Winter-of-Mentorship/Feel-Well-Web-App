@@ -6,6 +6,25 @@
 [![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/manankohlii/spacex-launch-data/search?l=css)&nbsp;
 [![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/manankohlii/spacex-launch-data/search?l=javascript)
 
+The contents in this project follow the following structure.
+
+```
+├───home
+│
+└───blog
+│
+└───happy space
+
+    |──quiz
+    |──self care
+    │──music
+    │──videos
+
+├───about
+│
+└───contact
+```
+
 ## Project Admin👩
 <table>
   <tr>
