@@ -37,6 +37,11 @@ The contents in this project follow the following structure.
 ## Week Wise Progress
 
 ## Future Scope 
+The current project can be modified with more features and tech stacks to bring out the best from the website. 
+1. Implemnenting the backend functionality so that the user data can be stored and health advice can be given according to the input provided. 
+2. Use of AI/ML to make the website more lively and user friendly.
+3. Adding of the testimonial section so that the user can share their feedback.
+4. 
 
 ## Project Admin👩
 <table>
