@@ -49,7 +49,7 @@ The contents in this project follow the following structure.
 ## Project Admin👩
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/shreejaverma"><img src="https://avatars.githubusercontent.com/u/60843543?v=4" height="120px" width="120px"/><br/><sub><b>Sreeja Verma</b></sub></a></td>
+    <td align="center"><a href="https://github.com/shreejaverma"><img src="https://avatars.githubusercontent.com/u/60843543?v=4" height="120px" width="120px"/><br/><sub><b>Shreeja Verma</b></sub></a></td>
   </tr>
 </table>
 
