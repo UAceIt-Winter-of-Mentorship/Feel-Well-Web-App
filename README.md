@@ -3,6 +3,14 @@
 
 ## About The Project
 
+The Project, <strong>Feel Well Web App</strong> is a Web Development Project. It is a Mental Well Being portal where we aim to spread awareness and help user find ways to improve their mental health. It is designed with a minimalist interface for better user experience without any hurdle. 
+
+The project consists of 3 main pages: <strong>Home page</strong>, <strong>Blog page</strong> and <strong>HappySpace page</strong>. Home page is the main page of the portal comprising of brief description about the website, contact details, testimonials and other navigation options to move anywhere inside the portal. 
+<br>Blog page is designed for the purpose of sharing articles and other pieces of writing about mental health awareness and some tips and tricks via interactive blogs, so that user can learn to prioritise their mental health.
+<br>The HappySpace page is designed with the thought of how can we improve user's mood and help them give a change of mind and be relaxed. Four branches have been added to it: <strong>Quiz</strong>, <strong>Music streams</strong>, <strong>Video Stream</strong> and <strong>Self monitoring page</strong>. Here, Users can interact with the content they like depending on their mood. Awareness about our mental health is a necessary process to resolve issues which occur sometimes not by other external factors but internal. And for that, we need to be aware of our mental state, so that we can improve it to lead a happy and healthy life!
+
+
+
 ## Project Repository 
 
 ```
@@ -46,7 +54,7 @@ The current project can be modified with more features and tech stacks to bring 
 ## Project Admin👩
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/shreejaverma"><img src="https://avatars.githubusercontent.com/u/60843543?v=4" height="120px" width="120px"/><br/><sub><b>Sreeja Verma</b></sub></a></td>
+    <td align="center"><a href="https://github.com/shreejaverma"><img src="https://avatars.githubusercontent.com/u/60843543?v=4" height="120px" width="120px"/><br/><sub><b>Shreeja Verma</b></sub></a></td>
   </tr>
 </table>
 
