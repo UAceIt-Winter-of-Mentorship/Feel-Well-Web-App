@@ -74,7 +74,7 @@ The project was made with a proper forethought and tasks were divided every week
 
 ## Future Scope 
 The current project can be modified with more features and tech stacks to bring out the best from the website. 
-1. Implemnenting the backend functionality so that the user data can be stored and health advice can be given according to the input provided. 
+1. Implementing the backend functionality so that the user data can be stored and health advice can be given according to the input provided. 
 2. Use of AI/ML to make the website more lively and user friendly.
 3. Adding of the testimonial section so that the user can share their feedback.
 4. Adding a new Yoga Section which will help to curb depression.
