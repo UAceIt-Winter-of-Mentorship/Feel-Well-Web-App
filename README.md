@@ -43,6 +43,34 @@ The contents in this project follow the following structure.
 ```
 
 ## Week Wise Progress
+The project was made with a proper forethought and tasks were divided every week followed by a meeting. The weekly schedule was as mentioned below :
+    <br><br> • <strong>Week 1</strong>
+    <br>(3 Jan 22 – 9 Jan 22)
+    <br> Brief Introduction with all the team members.
+    <br> Provided with the resources from the mentor to revise and brush up all the concepts required in the project.
+    <br>
+    <br><strong>•Week 2</strong>
+    <br> (10 Jan 22 – 16 Jan 22)
+    <br> Sharing our personal expectations from the project.
+    <br> Wireframing of the website.
+    <br>
+    <br> • <strong>Week 3</strong>
+    <br>(17 Jan 22 – 23 Jan 22)
+    <br> Designing of the logo.
+    <br>Coding of the Home page from the prepared wireframe which includes brief description about website
+    <br>
+    <br> • <strong>Week 4</strong>
+    <br> (24 Jan 22 – 31 Jan 22)
+    <br> Wireframing and coding of the Blog page which includes the writing pieces to create awareness.
+    <br>
+    <br> • <strong>Week 5</strong>
+    <br> (1 Feb 22 – 7 Feb 22)
+    <br> Coding of the HappySpace page which is further divided into several sub-pages for music streaming, video streaming, quiz and self monitoring page.
+    <br>
+    <br> • <strong>Week 6</strong>
+    <br>(8 Feb 22 – 14 Feb 22)
+    <br> Preparation of the project report to be showcased.
+
 
 ## Future Scope 
 The current project can be modified with more features and tech stacks to bring out the best from the website. 
