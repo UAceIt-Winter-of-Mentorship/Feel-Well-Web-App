@@ -74,6 +74,10 @@ The project was made with a proper forethought and tasks were divided every week
 ## Conclusion
 The FeelWell web app is a collaborative initiative that aims to assist individuals who are lonely or sad by providing them with resources such as pleasant music, videos, and blogs that might uplift their mood and give them a better outlook on life. It also contains a quiz section to raise mental health awareness. The self-awareness area helps people become more conscious of their own emotions, which can help them improve their situation. The purpose of the project is to create an application that will benefit individuals by assisting them in leading a joyful, balanced life by making them FEELWELL.
 
+```
+https://uaceit-winter-of-mentorship.github.io/Feel-Well-Web-App/
+```
+
 ## Future Scope 
 The current project can be modified with more features and tech stacks to bring out the best from the website. 
 1. Implementing the backend functionality so that the user data can be stored and health advice can be given according to the input provided. 
