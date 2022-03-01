@@ -160,9 +160,7 @@ section{
 
 
 .footer{
-
     background: var(--bg);
-    padding-bottom: 9rem;
 }
 
 .footer .box-container{
@@ -177,9 +175,6 @@ section{
     color:var(--black);
 }
 
-.black{
-  color:black;
-}
 
 .footer .box-container .box a{
     display: block;
@@ -200,10 +195,9 @@ section{
 .footer .credit{
     color: var(--black);
     text-align: center;
-    padding:1rem;
     margin-top: 2rem;
     padding-top: 2rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .footer .credit span{
@@ -248,7 +242,7 @@ section{
     .header .navbar{
         position: absolute;
         top:115%; right: 2rem;
-        background:#fff;
+        background:rgb(255, 255, 255) !important  ;
         box-shadow: var(--box-shadow);
         border:var(--border);
         border-radius: .5rem;
@@ -277,6 +271,13 @@ section{
 
     .home .content{
         text-align: center;
+    }
+    .home .content h3{
+        padding-top: 15%;
+    }
+    .home .image img{
+        width: 80%;
+        left: 10%;
     }
 
 }

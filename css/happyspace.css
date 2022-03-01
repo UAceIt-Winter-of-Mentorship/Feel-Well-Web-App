@@ -36,7 +36,7 @@ section{
 
 .heading{
     text-align: center;
-    padding-bottom: 3rem;
+    padding: 10%;
     font-size: 4rem;
     color:var(--black);
 }
@@ -135,7 +135,9 @@ section{
 }
 
 .home .image img{
-    width: 100%;
+    width: 65%;
+    position: relative;
+    left: 20%;
 }
 
 .home .content h3{
@@ -231,9 +233,7 @@ section{
 
 
 .footer{
-
     background: var(--bg);
-    padding-bottom: 9rem;
 }
 
 .footer .box-container{
@@ -268,15 +268,16 @@ section{
 .footer .credit{
     color: var(--black);
     text-align: center;
-    padding:1rem;
     margin-top: 2rem;
     padding-top: 2rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .footer .credit span{
     color:var(--main-color);
 }
+
+
 
 
 
@@ -345,6 +346,20 @@ section{
 
     .home .content{
         text-align: center;
+    }
+    .home .content{
+        text-align: center;
+    }
+    .home .content h3{
+        padding-top: 15%;
+    }
+    .home .image img{
+        width: 80%;
+        left: 10%;
+    }
+    .home .content p{
+        padding: 0%;
+        text-align: initial;
     }
 
 }

@@ -24,7 +24,7 @@
 
 h3{
     font-family: 'Nunito', sans-serif;
-    margin:0; padding:0;
+    margin:0; padding: 5%;
     font-size: 4.0rem;
     color:#5fa6f8;
 
@@ -179,31 +179,7 @@ align-items: center;
 
 
 
-.home .cloud{
-    position: absolute;
-    bottom: 0; right: 0; left: 0;
-    height: 18rem;
-    background-size: 250rem 18rem;
-    background:url(../images/cloud.png) repeat-x;
-    animation: cloud 10s linear infinite;
-}
 
-@keyframes cloud{
-    0%{
-        background-position-x: 0rem;
-    }
-    100%{
-        background-position-x: -250rem;
-    }
-}
-
-.home .cloud-1{
-    opacity: .5;
-    height:20rem;
-    background-size: 250rem 20rem;
-    animation-direction: reverse;
-    animation-duration: 15s;
-}
 
 
 #menu-btn{
@@ -281,9 +257,7 @@ align-items: center;
 
 
 .footer{
-
     background: var(--bg);
-    padding-bottom: 9rem;
 }
 
 .footer .box-container{
@@ -318,15 +292,15 @@ align-items: center;
 .footer .credit{
     color: var(--black);
     text-align: center;
-    padding:1rem;
     margin-top: 2rem;
     padding-top: 2rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .footer .credit span{
     color:var(--main-color);
 }
+
 
 
 

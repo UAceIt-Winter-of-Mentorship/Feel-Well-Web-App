@@ -125,6 +125,7 @@ section{
     padding-top: 20rem;
     background: var(--bg);
     position: relative;
+    padding-bottom: 0%;
 }
 
 .home .content{
@@ -136,7 +137,9 @@ section{
 }
 
 .home .image img{
-    width: 100%;
+  width: 65%;
+  position: relative;
+  left: 20%;
 }
 
 .home .content h3{
@@ -151,19 +154,6 @@ section{
     color:var(--light-color);
     line-height: 1.8;
     padding:1rem 0;
-}
-
-
-
-
-
-.home .cloud{
-    position: absolute;
-    bottom: 0; right: 0; left: 0;
-    height: 18rem;
-    background-size: 250rem 18rem;
-    background:url(../images/cloud.png) repeat-x;
-    animation: cloud 10s linear infinite;
 }
 
 @keyframes cloud{
@@ -237,7 +227,6 @@ section{
 .footer{
 
     background: var(--bg);
-    padding-bottom: 9rem;
 }
 
 .footer .box-container{
@@ -270,12 +259,11 @@ section{
 }
 
 .footer .credit{
-    color: var(--black);
-    text-align: center;
-    padding:1rem;
-    margin-top: 2rem;
-    padding-top: 2rem;
-    font-size: 2rem;
+  color: var(--black);
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  font-size: 1.2rem;
 }
 
 .footer .credit span{
@@ -639,8 +627,19 @@ html, body, .wrapper {
     }
 
     .home .content{
-        text-align: center;
-    }
+      text-align: center;
+  }
+  .home .content h3{
+      padding-top: 15%;
+  }
+  .home .image img{
+      width: 80%;
+      left: 10%;
+  }
+  .home .content p{
+    padding: 0%;
+    text-align: initial;
+}
 
 }
 
